@@ -2,7 +2,7 @@
 <html class="staticrypt-html">
     <head>
         <meta charset="utf-8" />
-        <title>Abel's vault</title>
+        <title>Abel's Vault</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <!-- do not cache this page -->
@@ -21,22 +21,23 @@
             }
 
             .staticrypt-page {
-                width: 360px;
+                width: 600px;
                 padding: 8% 0 0;
                 margin: auto;
                 box-sizing: border-box;
             }
 
             .staticrypt-form {
-                position: relative;
-                z-index: 1;
-                background: #ffffff;
-                max-width: 360px;
-                margin: 0 auto 100px;
-                padding: 45px;
-                text-align: center;
-                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-            }
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.7); /* Adjust the alpha value (0.7) to control transparency */
+    max-width: 600px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
 
             .staticrypt-form input[type="password"] {
                 outline: 0;
@@ -78,13 +79,17 @@
             }
 
             .staticrypt-content {
-                height: 100%;
-                margin-bottom: 1em;
-                background: #76B852;
-                font-family: "Arial", sans-serif;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-            }
+    height: 100%;
+    margin-bottom: 1em;
+    background-image: url('https://images5.alphacoders.com/428/428753.jpg'); /* Replace 'your-image-url.jpg' with the actual URL of your image */
+    background-size: cover; /* You can adjust this property to control how the image is sized */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center center; /* This centers the image */
+    font-family: "Arial", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 
             .staticrypt-instructions {
                 margin-top: -1em;
@@ -153,9 +158,14 @@
         <div id="staticrypt_content" class="staticrypt-content hidden">
             <div class="staticrypt-page">
                 <div class="staticrypt-form">
-                    <div class="staticrypt-instructions">
-                        <p class="staticrypt-title">TRIBOS</p>
-                        <p></p>
+                    <div class="staticrypt-container">
+                        <h1>Abel's Vault</h1>
+                        <p class="staticrypt-title">
+                            "All of us had been trained by Kelly Johnson and believed fanatically in his insistence that an airplane that looked beautiful would fly the same way."
+                        </p>
+                        <p class="staticrypt-quote">
+                            - Ben Rich, Skunk Works
+                        </p>
                     </div>
 
                     <hr class="staticrypt-hr" />
